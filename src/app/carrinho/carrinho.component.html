@@ -1,0 +1,5 @@
+<h1>Seu Carrinho</h1>
+<div *ngFor="let item of itens">
+  <p>{{ item.descricao }} - R$ {{ item.preco }}</p>
+</div>
+<button (click)="finalizarPedido()">Finalizar Pedido</button>

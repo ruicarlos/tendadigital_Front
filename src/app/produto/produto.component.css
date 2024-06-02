@@ -1,0 +1,146 @@
+.produto-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.produto-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.produto-imagem {
+  width: 150px; 
+  height: 150px; 
+  object-fit: contain; 
+  margin-bottom: 20px;
+}
+
+.produto-detalhes {
+  width: 100%;
+}
+
+.produto-digital {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.produto-digital h3 {
+  margin-right: 10px; 
+}
+
+.produto-digital p {
+  margin: 0;
+}
+
+.botoes-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.botoes-container button {
+  padding: 5px 20px;
+  cursor: pointer;
+  background-color: #4CAF50; .produto-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .produto-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .produto-imagem {
+    width: 150px; 
+    height: 150px; 
+    object-fit: contain; 
+    margin-bottom: 20px;
+  }
+  
+  .produto-detalhes {
+    width: 100%;
+  }
+  
+  .produto-digital {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .produto-digital h3 {
+    margin-right: 10px; 
+  }
+  
+  .produto-digital p {
+    margin: 0;
+  }
+  
+  .botoes-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .botoes-container button {
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botoes-container button:hover {
+    background-color: #45a049; 
+  }
+  
+  .botoes-container button:active {
+    background-color: #3e8e41; 
+  }
+  
+  .quantidade-input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.botoes-container button:hover {
+  background-color: #45a049; 
+}
+
+.botoes-container button:active {
+  background-color: #3e8e41; 
+}
+
+.imagemProduto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
